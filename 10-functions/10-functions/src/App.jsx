@@ -5,9 +5,9 @@ const App = () => {
     <div onWheel={(e)=>{
       // console.log(e.deltaY);
       if(e.deltaY>0){
-        console.log("Upar Scroll Kiya Gaya haii");
+        console.log("Scrolling Downwards");
       }else{
-        console.log("Gande Ho Tum");
+        console.log("Scrolling Upwards");
       }  
     }}>
       <div className="page1"></div>
